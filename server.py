@@ -9,6 +9,10 @@ def main():
     return render_template("index.html")
     # return "Welcome!"
 
+@app.route('/login')
+def login():
+    return render_template("signInAndUp.html")
+
 
 
 
