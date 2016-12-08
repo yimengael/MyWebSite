@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Gaël Yimen Yimga Website - Dashboard Customer</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/GYYWebSite-DashboardCustomerStyle.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="../static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="../static/bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- NAV BAR-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">GYY Website</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> GAEL</a></li>
+                        <li><a href="/">Sign Out</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-center">
+                        <div class="input-group">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default" data-toggle="dropdown">
+                                    <i class="glyphicon glyphicon-menu-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Technical assistance</a></li>
+                                    <li><a href="#">Software Development</a></li>
+                                </ul>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <input type="text" class="form-control" placeholder="Search..."> -->
+                    </form>
+                </div>
+            </div>
+        </nav> <!-- end of nav bar-->
+
+        <!-- SideBAr and MAINCONTENT-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li><a href="#">Account</a></li>
+                        <li class="active"><a href="#">Projects <span class="sr-only">(current)</span></a></li>
+                        <li><a href="/">Sign Out</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <h1 class="page-header">Dashboard</h1>
+
+                    <div class="row placeholders">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-circle img-responsive" alt="Generic placeholder thumbnail">
+                            <h4>Gael Yimen</h4>
+                            <span class="text-muted">Company Name</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 placeholder"></div>
+                        <div class="col-xs-6 col-sm-3 placeholder"></div>
+                        <div class="col-xs-6 col-sm-3 placeholder"></div>
+                    </div>
+
+                    <h2 class="sub-header">Project Information</h2>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Subject</th>
+                                    <th>Description</th>
+                                    <th>Est. Date Quot°</th>
+                                    <th>Est. Date Real°</th>
+                                    <th>Budget</th>
+                                    <th>Status</th> <!-- initialized, quoted, pending, realized, delivered-->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1,001</td>
+                                    <td>Lorem</td>
+                                    <td>ipsum</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                </tr>
+                                <tr>
+                                    <td>1,002</td>
+                                    <td>amet</td>
+                                    <td>consectetur</td>
+                                    <td>adipiscing</td>
+                                    <td>elit</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                </tr>
+                                <tr>
+                                    <td>1,003</td>
+                                    <td>Integer</td>
+                                    <td>nec</td>
+                                    <td>odio</td>
+                                    <td>Praesent</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                </tr>
+                                <tr>
+                                    <td>1,006</td>
+                                    <td>nibh</td>
+                                    <td>elementum</td>
+                                    <td>imperdiet</td>
+                                    <td>Duis</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <a class="btn btn-primary" href="/registerProject" role="button">Submit a new project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER-->
+        <footer class="footer">
+            <div class="container">
+                <div class="col-xs-6">
+                    <div class="footer_left">
+                        <p class="footer-links">
+                            <a href="/">Home</a>
+                            ·
+                            <a href="#">Projects</a>
+                            ·
+                            <a href="/aboutme">About Me</a>
+                            ·
+                            <a href="/resume">Resume</a>
+                            ·
+                            <a href="/contact">Contact</a>
+                        </p>
+                        <p>GYY Website &copy; 2016</p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="footer-right">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/yimson"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/yimengael"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- end of footer-->
+
+    </body>
+</html>

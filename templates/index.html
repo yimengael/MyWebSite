@@ -29,14 +29,15 @@
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">GYY Website</a>
+                        <a class="navbar-brand" href="/">GYY Website</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="/">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="contact">Contact</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="/aboutme">About Me</a></li>
+                        <li><a href="/resume">Resume</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                     <form class="form-inline navbar-form navbar-right" action="/login">
                         <button type="submit" class="btn btn-primary">Log In</button>
@@ -49,7 +50,7 @@
                 <div class="container container-jumbotron">
                     <h2 class="text-center">Join our community. Start asking. Find Assistance.</h2>
                     <p class="text-center">Join over 100,000 customers and learn about my business</p>
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" action="/registerCustomer">
                         <div class="form-group">
                             <div class="col-md-4 col-md-offset-4">
                                 <input type="firstlastname" class="form-control" id="name" placeholder="First and Last name">
@@ -90,22 +91,17 @@
                     </div><!-- /.col-md-3 -->
                     <div class="col-md-3">
                         <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="250" height="140">
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <h2>GYY Website</h2>
+                        <p>This is the website of my company. You should find here all my accomplishments as a software engineer. All the projects on which I work for. The goal of my company.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-md-3 -->
                     <div class="col-md-3">
                         <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="250" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <h2>OrderAll</h2>
+                        <p>This is a platform that let people order goods and food in the daily basis and we deliver on the same day or the next day according to the specified time of delivery. This is specific for Cameroon people. </p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-md-3 -->
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="250" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3"></div><!-- /.col-md-3 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- end of the wrapper -->
@@ -116,15 +112,15 @@
                 <div class="col-xs-6">
                     <div class="footer_left">
                         <p class="footer-links">
-                            <a href="#">Home</a>
+                            <a href="/">Home</a>
                             ·
-                            <a href="#">Portfolio</a>
+                            <a href="#">Projects</a>
                             ·
-                            <a href="#">About Me</a>
+                            <a href="/aboutme">About Me</a>
                             ·
-                            <a href="#">Resume</a>
+                            <a href="/resume">Resume</a>
                             ·
-                            <a href="#">Contact</a>
+                            <a href="/contact">Contact</a>
                         </p>
                         <p>GYY Website &copy; 2016</p>
                     </div>
@@ -132,9 +128,9 @@
                 <div class="col-xs-6">
                     <div class="footer-right">
                         <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/yimson"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="https://github.com/yimengael"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>
