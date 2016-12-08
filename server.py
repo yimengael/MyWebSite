@@ -5,17 +5,17 @@ app = Flask(__name__)
 # our index route will handle rendering our form
 # Define a route for the default URL, which loads the form
 @app.route('/')
-def main():
+def showIndex():
     return render_template("index.html")
     # return "Welcome!"
 
 @app.route('/login')
-def login():
+def showLogin():
     return render_template("signInAndUp.html")
 
 
 @app.route('/contact')
-def contact():
+def showContact():
     return render_template("contactUs.html")
 
 
